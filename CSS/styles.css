@@ -1,0 +1,55 @@
+:root {
+  --theme-color: #121212;
+}
+main {
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 25px 0px 25px 0;
+}
+img {
+  width: 380px;
+  border: 3px solid var(--theme-color);
+  margin-bottom: 12px;
+}
+
+p,
+input,
+button {
+  margin: 0 auto;
+  display: block;
+}
+input,
+button {
+  border: 3px solid var(--theme-color);
+}
+p {
+  text-align: left;
+  width: 380px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 5px;
+  margin-top: 25px;
+  text-align: inherit;
+  margin-bottom: 10px;
+}
+button {
+  background-color: var(--theme-color);
+  color: white;
+  padding: 8px;
+  width: 210px;
+  margin-bottom: 14px;
+}
+p.footer {
+  text-align: inherit;
+  font-size: 14px;
+}
+p a,
+p , h1{
+  color: var(--theme-color);
+}
